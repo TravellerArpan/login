@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(rgb(245, 147, 1),white );
+    height: 200vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    width: 34%;
+    height: 120vh;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+form{
+    position: relative;
+}
+#formHead{
+    display: flex;
+    justify-content: center;
+}
+#formHead .fa-face-smile-wink{
+    font-size: 5rem;
+    border: 3px solid #183153;
+    border-radius: 50%;
+    color: #fab005;
+}
+#cont > form > h3{
+    color: #fab005;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 60px; margin-bottom: 28px;
+}
+#cont > form > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #183153 ; 
+    text-align: center;
+    font-size: 30px;
+}
+#cont > form > #let{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #183153 ; 
+    text-align: center;
+    font-weight: lighter;
+    font-size: 17px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#cont > form > .in
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #183153 ; 
+    padding-left: 37px;
+    font-size: 18px;
+    font-weight: 700;    
+    
+}
+#cont > form > input{
+    width: 65%;
+    margin-left: 35px;
+    padding: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 2px solid #183153 ;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 22rem;
+    left: 4rem;
+    font-size: 20px;
+}
+.fa-lock{
+    position: absolute;
+    top: 30rem;
+    left: 4rem;
+    font-size: 20px;
+}
+#cont > form > #id{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding:0px 35px 0px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+#cont > form > #id >   div > #check{
+    color: #112138;
+}
+#cont > form > #id > #hov:hover{
+    color: #183153;
+}
+#cont > form > button{
+    margin-left: 3rem;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #183153;
+    border-bottom: 5px solid #183153;
+    background-color: #fab005;
+    transition: 1.2s;
+}
+#cont > form > button:hover{
+    background-color: #cc8f00;
+}
